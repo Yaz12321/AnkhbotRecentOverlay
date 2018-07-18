@@ -14,6 +14,13 @@
     "tooltip": "Insert the number(s) of files you want to display, separated by a comma. \r\n Open dropdown list below to get file numbers",
   	"group": "General"
   },
+    "selectedfilestitle": {
+    "type": "textbox",
+    "value": "(\"Recent Subscriber\",\"Recent Follower\",\"Recent Donation\")",
+  	"label": "Files to read",
+    "tooltip": "Insert the title to be desplayed corresponding to the selected files.\r\nPut in quotes, and separate with a comma \r\nMaintain same order",
+  	"group": "General"
+  },
     "dropdown": {
     "type": "dropdown",
     "value": "",

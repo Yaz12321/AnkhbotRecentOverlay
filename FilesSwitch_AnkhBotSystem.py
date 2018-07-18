@@ -36,6 +36,7 @@ class Settings:
             self.OnlyLive = False
             self.selectedfiles = "(42,40,39)"
             self.Delay = 10
+            selectedfilestitle = "(\"Recent Subscriber\",\"Recent Follower\",\"Recent Donation\")"
 
             
     # Reload settings on save through UI
@@ -97,12 +98,14 @@ def Execute(data):
 
 def switch():
     selected = literal_eval(MySettings.selectedfiles)
+    selectedtitle = literal_eval(MySettings.selectedfilestitle)
     twitchfile = files[selected[n]]
     twitchf = open("Services/Twitch/Files/{}".format(twitchfile),"r+")
     filetext = twitchf.read()
     twitchf.close()
     f = open("{}/Overlayfile.txt".format(path),"w+")
-    f.write(filetext)
+    overlay = selectedtitle[n] + ": " + filetext
+    f.write(overlay)
     f.close()
 
     if n == len(selected)-1:
