@@ -1,0 +1,33 @@
+﻿{
+  "output_file": "settings.json",
+    "OnlyLive": {
+    "type": "checkbox",
+    "value": false,
+  	"label": "Only when live",
+    "tooltip": "Command is only active when stream is live",
+  	"group": "General"
+  },
+    "selectedfiles": {
+    "type": "textbox",
+    "value": "(42,40,39)",
+  	"label": "Files to read",
+    "tooltip": "Insert the number(s) of files you want to display, separated by a comma. \r\n Open dropdown list below to get file numbers",
+  	"group": "General"
+  },
+    "dropdown": {
+    "type": "dropdown",
+    "value": "",
+    "items": [ "0-30day_cheer_amount.txt ","1-30day_donation_amount.txt ","2-30day_top_cheerer.txt ","3-30day_top_cheerers.txt ","4-30day_top_cheers.txt ","5-30day_top_donations.txt ","6-30day_top_donator.txt ","7-30day_top_donators.txt ","8-all_time_top_cheerer.txt ","9-all_time_top_cheerers.txt ","10-all_time_top_cheers.txt ","11-all_time_top_donations.txt ","12-all_time_top_donator.txt ","13-all_time_top_donators.txt ","14-AmountOfFollowers.txt ","15-AmountOfGameWispSub.txt ","16-AmountOfHosts.txt ","17-AmountOfRaids.txt ","18-AmountOfSubs.txt ","19-CurrentlyPlaying.txt ","20-CurrentSong.txt ","21-Deaths.txt ","22-donation_goal.txt ","23-ExtraLife.txt ","24-ExtraLife_Donators.txt ","25-ExtraLife_Recent_Donator.txt ","26-ExtraLife_Team.txt ","27-Followers.txt ","28-GameWispSubs.txt ","29-Hosts.txt ","30-monthly_cheer_amount.txt ","31-monthly_donation_amount.txt ","32-monthly_top_cheerer.txt ","33-monthly_top_cheerers.txt ","34-monthly_top_cheers.txt ","35-monthly_top_donations.txt ","36-monthly_top_donator.txt ","37-monthly_top_donators.txt ","38-most_recent_cheerer.txt ","39-most_recent_donator.txt ","40-most_recent_follower.txt ","41-most_recent_resubscriber.txt ","42-most_recent_subscriber.txt ","43-RecentFollower.txt ","44-RecentRaider.txt ","45-RecentSub.txt ","46-RequestedBy.txt ","47-session_cheerers.txt ","48-session_cheer_amount.txt ","49-session_donation_amount.txt ","50-session_donators.txt ","51-session_followers.txt ","52-session_follower_count.txt ","53-session_most_recent_cheerer.txt ","54-session_most_recent_donator.txt ","55-session_most_recent_follower.txt ","56-session_most_recent_resubscriber.txt ","57-session_most_recent_subscriber.txt ","58-session_subscribers.txt ","59-session_subscriber_count.txt ","60-session_top_cheerer.txt ","61-session_top_cheerers.txt ","62-session_top_cheers.txt ","63-session_top_donations.txt ","64-session_top_donator.txt ","65-session_top_donators.txt ","66-SpotifySong.txt ","67-Subs.txt ","68-total_cheer_amount.txt ","69-total_donation_amount.txt ","70-total_follower_count.txt ","71-total_subscriber_count.txt ","72-total_subscriber_score.txt ","73-weekly_cheer_amount.txt ","74-weekly_donation_amount.txt ","75-weekly_top_cheerer.txt ","76-weekly_top_cheerers.txt ","77-weekly_top_cheers.txt ","78-weekly_top_donations.txt ","79-weekly_top_donator.txt ","80-weekly_top_donators.txt "],
+    "label": "Get File Numbers here",
+    "tooltip": "Only to get numbers. Not actually a setting",
+    "group": "General"
+  },
+    "Delay": {
+    "type": "numberbox",
+    "value": 10,
+    "label": "Delay between switches (seconds)",
+    "tooltip": "",
+    "group": "General"
+  },
+
+}
