@@ -105,7 +105,7 @@ def switch():
     f.write(filetext)
     f.close()
 
-    if n == len(selected)-2:
+    if n == len(selected)-1:
         global n
         n = 0
     else:
